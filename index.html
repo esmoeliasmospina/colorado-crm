@@ -304,8 +304,8 @@ renderMain();
 
 /* ============ Colorado CRM — login + fonte de dados (standalone) ============ */
 const CONFIG = {
-  SUPABASE_URL: "",       /* <<< cole aqui a Project URL do Supabase */
-  SUPABASE_ANON_KEY: ""   /* <<< cole aqui a anon public key do Supabase */
+  SUPABASE_URL: "https://gwsswlgdzyyzzvuwavia.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd3c3N3bGdkenl5enp2dXdhdmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzODc5NDUsImV4cCI6MjEwODk2Mzk0NX0.ti8A0jn-eIezdD7N9R4VuOClbGgtb1EBvPWm_fQO5lw"
 };
 const HAS_SUPA = !!(CONFIG.SUPABASE_URL && CONFIG.SUPABASE_ANON_KEY);
 let backend=null, sbClient=null, authUser=null;
